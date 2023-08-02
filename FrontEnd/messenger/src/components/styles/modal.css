@@ -1,0 +1,45 @@
+/* Пример стилей */
+
+.modal-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 250px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+  }
+  
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modalButton {
+    position: absolute;
+    bottom: 40px;
+    background-color: white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 7px;
+  }
+  
+  .modalInput{
+    border-radius: 8px;
+    width: 200px;
+    height: 10px;
+    padding: 10px 15px;
+    border: 2px solid rgb(52, 52, 55);
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+  }

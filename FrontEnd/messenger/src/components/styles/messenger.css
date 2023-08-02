@@ -1,0 +1,183 @@
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 24, 27);
+}
+
+.lay {
+    height: 90%;
+}
+
+.Head {
+    background-color: rgb(48, 47, 47);
+    height: 50px;
+}
+
+.lay .sider{
+    background-color: rgb(48, 47, 47);
+}
+
+.lay .sider .vertical .menu input{
+    background-color: rgb(48, 47, 47) !important;
+}
+
+.User{
+    position: absolute;
+    right: 60px;
+    top: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.messeng_card {
+    min-height: 100%;
+    background-color: rgb(24, 24, 27);
+    border-radius: 0px;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.message_send,
+.message_get {
+    margin-top: 5px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    color: #ffffff;
+    word-break: break-all;
+}
+
+.message_send{
+    background-color: rgb(34, 34, 37);
+}
+
+.message_get {
+    background-color: rgb(54, 44, 72);
+    align-self: flex-start;
+}
+
+
+@media (max-width: 960px) {
+    .message_send {
+        align-self: flex-end;
+    }
+}
+
+@media (min-width: 960px) {
+    .message_send {
+        align-self: flex-start;
+    }
+}
+
+.message_post {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 80%;
+    height: 35px;
+    border-radius: 7px;
+    border: 2px solid rgb(52, 52, 55);
+    box-sizing: border-box;
+    background-color: rgb(54, 54, 57);
+    color: white;
+}
+
+.message_post:focus{
+    box-shadow: none;
+}
+
+.subBut {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 15%;
+    height: 35px;
+    border-radius: 7px;
+    background-color: rgb(84, 64, 102);
+    border: none;
+    box-shadow: none;
+}
+
+.message_send p {
+    display: inline;
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    color: rgb(219, 219, 219);
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.message_get p {
+    display: inline;
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    color: rgb(219, 219, 219);
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.EnterMessegerPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: large;
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.MessContent{
+    background-color:rgb(24, 24, 27);
+}
+
+.SearchInput{
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    background-color: rgb(54, 54, 57);
+    border-radius: 5px;
+    width: 200px;
+    padding: 7px 15px;
+    border: 2px solid rgb(72, 72, 75);
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: none;
+
+}
+
+.menu{
+    background-color: rgb(54, 54, 57);
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.rmbmenu{
+    position: fixed;
+    right: 10px;
+    top: 80px;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(148, 147, 147);
+    background-color: white;
+    color: black;
+    user-select: none;
+}
+
+.Avatar{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.Avatar img{
+    border-radius: 50%;
+}
