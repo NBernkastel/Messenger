@@ -82,7 +82,6 @@ function MessengerPage() {
           <p>{user.username}</p>
         </div>
         <div className="Avatar">
-          {user.username ? <img src={'http://localhost:8000/avatars/'+user.username+'.jpg'} alt="Restored Image" width={48} height={48} /> : null}
         </div>
     </div>
   );

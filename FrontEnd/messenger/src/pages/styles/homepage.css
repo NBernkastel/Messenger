@@ -1,0 +1,29 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.homebuttons{
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    background-color: rgb(32, 32, 37);
+    border-radius: 20px;
+}
+
+.homebuttons div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:170px;
+    height:50px;
+    margin-left: 20px;
+    background-color: rgb(52, 52, 57);
+    border-radius: 7px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: none;
+}

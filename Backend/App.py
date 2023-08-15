@@ -28,5 +28,3 @@ async def startup():
 app.include_router(auth_router)
 app.include_router(socket_router)
 app.include_router(users_router)
-
-app.mount("/avatars", StaticFiles(directory="static"), name="static")
