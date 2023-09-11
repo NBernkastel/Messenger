@@ -1,0 +1,92 @@
+@media screen and (min-width: 868px) {
+    .contactme {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 180px;
+        width: 1150px;
+        height: 340px;
+        border-radius: 30px;
+        border: 1px solid var(--Separator, #26292D);
+        background: var(--Billet, #1C1E22);
+    }
+
+    .contact {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cttitle {
+        color: var(--White, #FFF);
+        text-align: center;
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .ctbody {
+        padding-top: 32px;
+        width: 60%;
+        /* padding-left: 15%; */
+        color: var(--White, #FFF);
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .contactme {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 180px;
+        width: 100%;
+        height: 340px;
+        border-radius: 30px;
+        border: 1px solid var(--Separator, #26292D);
+        background: var(--Billet, #1C1E22);
+    }
+
+    .contact {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cttitle {
+        color: var(--White, #FFF);
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .ctbody {
+        padding-top: 32px;
+        width: 60%;
+        /* padding-left: 15%; */
+        color: var(--White, #FFF);
+        text-align: center;
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.contactme svg {
+    padding-top: 32px;
+    /* padding-left: 20%; */
+}

@@ -1,18 +1,14 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom';
-import RegisterPage from './pages/RegisterPage';
-import LoginPage from './pages/LoginPage';
-import HomePage from './pages/HomePage';
-import MessengerPage from './pages/MessengerPage';
+import HomePage from './main/pages/HomePage';
+import Messenger from './messenger/Messenger';
 
 function App() {
   return (
     <>
       <Routes>
-        <Route path="/register" element={<RegisterPage/>} />
-        <Route path="/login" element={<LoginPage/>} />
         <Route path="/" element={<HomePage/>} />
-        <Route path="/mess" element={<MessengerPage/>} />
+        <Route path="/messenger/*" element={<Messenger/>} />
       </Routes>
     </>
   );

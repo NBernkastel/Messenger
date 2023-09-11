@@ -1,0 +1,97 @@
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 868px) {
+.mainInfo {
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+}
+@media screen and (max-width: 868px) {
+    .mainInfo {
+        width: 100%;
+        padding-top: 150px;
+        padding-bottom: 10%;
+    }
+}
+.mainButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+
+.mainButtons .hireme {
+    width: 176px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 16px;
+    border: none;
+    background: var(--Primary, #5C62EC);
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 100% */
+    letter-spacing: 1px;
+}
+
+.mainButtons .cv {
+    width: 176px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid var(--White, #FFF);
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    /* 100% */
+    letter-spacing: 1px;
+}
+
+.cv svg {
+    padding-right: 8px;
+}
+
+.infp {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 1.2px;
+}
+
+.moreinfo {
+    padding-top: 32px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.infsp {
+    color: var(--Primary, #5C62EC);
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 1.2px;
+}
